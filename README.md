@@ -9,20 +9,6 @@ $gradle run
 
 
 At the end you should see.
-REST Application: http://0.0.0.0:8080/ShoppingCart                               -> org.apache.openejb.server.rest.InternalApplication
-			GET http://0.0.0.0:8080/ShoppingCart/ping/                   		 ->      Ping
-           DELETE http://0.0.0.0:8080/ShoppingCart/carts/{cartid}/items/{itemid} ->      Response deleteItem(long, long)
-           DELETE http://0.0.0.0:8080/ShoppingCart/carts/{id}                    ->      Response deleteCart(long)
-              GET http://0.0.0.0:8080/ShoppingCart/carts/                        ->      List<Cart> getAllCarts()
-              GET http://0.0.0.0:8080/ShoppingCart/carts/{id}                    ->      Cart getCart(long)
-             POST http://0.0.0.0:8080/ShoppingCart/carts/                        ->      Cart createCart(CartItem)
-             POST http://0.0.0.0:8080/ShoppingCart/carts/{id}/items              ->      Cart addItem(long, CartItem)
-              PUT http://0.0.0.0:8080/ShoppingCart/carts/{id}                    ->      Cart checkOut(long, Cart)
-           DELETE http://0.0.0.0:8080/ShoppingCart/products/{id}                 ->      Response deleteProduct(long)
-              GET http://0.0.0.0:8080/ShoppingCart/products/                     ->      List<Product> getAllProducts()
-              GET http://0.0.0.0:8080/ShoppingCart/products/{id}                 ->      Product getProduct(long)
-             POST http://0.0.0.0:8080/ShoppingCart/products/                     ->      Product createProduct(Product)
-              PUT http://0.0.0.0:8080/ShoppingCart/products/                     ->      Product updateProduct(Product)
-			  
+REST Application: http://0.0.0.0:8080/ShoppingCart
 Please replace 0.0.0.0 with the host name of the server
 
