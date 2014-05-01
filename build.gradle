@@ -1,0 +1,50 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = "com.nrk.fms.FileMessagingSystemMain"
+
+repositories {
+  mavenCentral()
+  mavenLocal()
+}
+
+dependencies {
+
+  compile( 'org.apache.cxf:cxf-rt-rs-security-cors:2.7.10',
+    'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.3.2',
+    'javax.ws.rs:javax.ws.rs-api:2.0-m10')
+  
+    // OpenEJB
+  compile('org.apache.openejb:openejb-cxf-rs:4.6.0')
+
+  // Common
+  compile(
+      'commons-io:commons-io:2.+',
+      'commons-lang:commons-lang:2.+',
+      'org.slf4j:slf4j-api:1.+',
+      'org.slf4j:slf4j-log4j12:1.7.5',
+      'com.h2database:h2:1.+',
+      'javax.validation:validation-api:1.1.0.Final'
+      )
+
+  //Hibernate Validator
+  compile(
+      'org.hibernate:hibernate-validator:5.+',
+      'org.hibernate:hibernate-validator-annotation-processor:5.+',
+	 )
+    // Hibernate 4.X
+    compile (group: 'org.hibernate.javax.persistence', name:'hibernate-jpa-2.0-api', version:'1.0.1.Final')
+    compile ('org.hibernate:hibernate-c3p0:4.2.8.Final')
+    compile ('org.hibernate:hibernate-entitymanager:4.2.8.Final')
+    compile ('org.hibernate:hibernate-core:4.2.8.Final')
+    compile ('org.hibernate:hibernate-ehcache:4.2.8.Final')
+
+
+
+  testCompile ('junit:junit:4.+',
+      'org.mockito:mockito-all:1.9.+',
+      'org.apache.openejb:openejb-junit:4.+'
+      )
+}
+

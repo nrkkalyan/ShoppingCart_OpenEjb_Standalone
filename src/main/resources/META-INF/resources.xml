@@ -1,0 +1,3 @@
+<resources>
+	<Service id="jaxbProvider" class-name="com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider" />
+</resources> 

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping cart</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8;IE=9;chrome=1;">
+<meta name="lsq" content="59">
+<meta name="trixrows" content="100">
+<meta name="trixr1" content="0">
+<meta name="trixr2" content="20">
+<meta name="trixdiv" content="20">
+<meta name="trixcnt" content="1">
+<meta name="trixlast" content="20">
+<link rel="stylesheet" href="help_files/3971517159-tiler_view_ltr.css"
+	type="text/css">
+<style>
+html {
+	overflow: visible
+}
+;
+</style>
+</head>
+<body style="border: 0px; margin: 0px">
+	<style>
+.tblGenFixed td {
+	padding: 0 3px;
+	overflow: hidden;
+	white-space: normal;
+	letter-spacing: 0;
+	word-spacing: 0;
+	background-color: #fff;
+	z-index: 1;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.dn {
+	display: none
+}
+
+.tblGenFixed td.s0 {
+	background-color: white;
+	font-family: arial, sans, sans-serif;
+	font-size: 100.0%;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: bottom;
+	direction: auto-ltr;
+	white-space: normal;
+	overflow: hidden;
+	border-top: 1px solid #CCC;
+	border-right:;
+	border-bottom:;
+	border-left: 1px solid #CCC;
+}
+
+.tblGenFixed td.s2 {
+	background-color: white;
+	font-family: arial, sans, sans-serif;
+	font-size: 100.0%;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: bottom;
+	direction: auto-ltr;
+	white-space: normal;
+	overflow: hidden;
+	border-right:;
+	border-bottom:;
+	border-left: 1px solid #CCC;
+}
+
+.tblGenFixed td.s1 {
+	background-color: white;
+	font-family: arial, sans, sans-serif;
+	font-size: 100.0%;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: bottom;
+	direction: auto-ltr;
+	white-space: normal;
+	overflow: hidden;
+	border-top: 1px solid #CCC;
+	border-right:;
+	border-bottom:;
+}
+
+.tblGenFixed td.s3 {
+	background-color: white;
+	font-family: arial, sans, sans-serif;
+	font-size: 100.0%;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: bottom;
+	direction: auto-ltr;
+	white-space: normal;
+	overflow: hidden;
+	border-right:;
+	border-bottom:;
+}
+
+.tblGenFixed td.s4 {
+	background-color: white;
+	font-family: arial, sans, sans-serif;
+	font-size: 100.0%;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	vertical-align: bottom;
+	direction: Context;
+	white-space: normal;
+	overflow: hidden;
+	border-right:;
+	border-bottom:;
+	border-left: 1px solid #CCC;
+}
+</style>
+	<table dir="ltr" class="tblGenFixed" id="tblMain" border="0"
+		cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr class="rShim">
+				<td class="rShim" style="width: 0;"></td>
+				<td class="rShim" style="width: 152px;"></td>
+				<td class="rShim" style="width: 120px;"></td>
+				<td class="rShim" style="width: 529px;"></td>
+				<td class="rShim" style="width: 120px;"></td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td dir="ltr" class="s0">Service</td>
+				<td dir="ltr" class="s1">Method</td>
+				<td dir="ltr" class="s1">Url</td>
+				<td dir="ltr" class="s1">Description</td>
+			</tr>
+			
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td dir="ltr" class="s2">Product</td>
+				<td dir="ltr" class="s3">POST</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/products/">http://localhost:8080/DynamicWebPrj/ws/products</a></td>
+				<td>Create a new product</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">PUT</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/products">http://localhost:8080/DynamicWebPrj/ws/products</a></td>
+				<td>Update existing product</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">GET</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/products/%7Bid%7D">http://localhost:8080/DynamicWebPrj/ws/products/{id}</a></td>
+				<td>Retrive a Product for a given id </td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">GET</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/products">http://localhost:8080/DynamicWebPrj/ws/products</a></td>
+				<td>Retrive all products</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">DELETE</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/products/%7Bid%7D">http://localhost:8080/DynamicWebPrj/ws/products/{id}</a></td>
+				<td>Deletes a Product by  given id</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td dir="ltr" class="s2">Cart &amp; CartItems</td>
+				<td dir="ltr" class="s3">POST</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts">http://localhost:8080/DynamicWebPrj/ws/carts</a></td>
+				<td>Creates a  new Cart and add the first item to  it.</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">POST</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts/%7Bid%7D/items">http://localhost:8080/DynamicWebPrj/ws/carts/{id}/items</a></td>
+				<td>Add a new Item the given cart id.</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">PUT</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts/%7Bid%7D">http://localhost:8080/DynamicWebPrj/ws/carts/{id}</a></td>
+				<td>Update the cart.</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">GET</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts">http://localhost:8080/DynamicWebPrj/ws/carts</a></td>
+				<td>Retrive all carts</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">GET</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts/%7Bid%7D">http://localhost:8080/DynamicWebPrj/ws/carts/{id}</a></td>
+				<td>Retrive a Cart for a given id.</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">DELETE</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts/{id}">http://localhost:8080/DynamicWebPrj/ws/carts/{id}</a></td>
+				<td>Deletes a cart by id</td>
+			</tr>
+			<tr dir="ltr">
+				<td class="hd"><p style="height: 16px;">.</p></td>
+				<td class="s4"></td>
+				<td dir="ltr" class="s3">DELETE</td>
+				<td dir="ltr" class="s3"><a target="_blank"
+					href="http://localhost:8080/DynamicWebPrj/ws/carts/{cartid}/items/{itemid}">http://localhost:8080/DynamicWebPrj/ws/carts/{cartid}/items/{itemid}</a></td>
+				<td>Deletes an item from the given cart id</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
