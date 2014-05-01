@@ -1,4 +1,4 @@
-package com.nrk.cart.ejb.persistence.common;
+package com.nrk.cart.persistence.common;
 
 import java.util.Date;
 

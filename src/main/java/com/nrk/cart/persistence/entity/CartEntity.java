@@ -1,4 +1,4 @@
-package com.nrk.cart.ejb.persistence.entity;
+package com.nrk.cart.persistence.entity;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -13,8 +13,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
-import com.nrk.cart.ejb.persistence.common.BaseEntity;
-import com.nrk.cart.web.domain.OrderStatus;
+import com.nrk.cart.persistence.common.BaseEntity;
+import com.nrk.cart.rest.domain.OrderStatus;
 
 @Entity
 public class CartEntity extends BaseEntity {

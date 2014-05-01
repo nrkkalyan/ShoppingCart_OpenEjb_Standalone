@@ -1,10 +1,10 @@
-package com.nrk.cart.ejb.persistence.entity;
+package com.nrk.cart.persistence.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import com.nrk.cart.ejb.persistence.common.BaseEntity;
+import com.nrk.cart.persistence.common.BaseEntity;
 
 @Entity
 public class CartItemEntity extends BaseEntity {

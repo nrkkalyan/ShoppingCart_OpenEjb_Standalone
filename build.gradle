@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-mainClassName = "com.nrk.fms.FileMessagingSystemMain"
+mainClassName = "com.nrk.cart.ShoppingCartMain"
 
 repositories {
   mavenCentral()

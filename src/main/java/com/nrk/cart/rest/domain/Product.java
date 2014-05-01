@@ -1,4 +1,4 @@
-package com.nrk.cart.web.domain;
+package com.nrk.cart.rest.domain;
 
 import java.io.Serializable;
 

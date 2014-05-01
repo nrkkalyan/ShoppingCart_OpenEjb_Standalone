@@ -1,10 +1,11 @@
-package com.nrk.cart.web.resource;
+package com.nrk.cart.rest.resource;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.interceptor.Interceptors;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -16,15 +17,17 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.nrk.cart.ejb.persistence.dao.ProductDao;
-import com.nrk.cart.ejb.persistence.entity.ProductEntity;
-import com.nrk.cart.web.domain.Product;
-import com.nrk.cart.web.utils.EntityToDomainMapper;
+import com.nrk.cart.interceptors.AuditLogInterceptor;
+import com.nrk.cart.persistence.dao.ProductDao;
+import com.nrk.cart.persistence.entity.ProductEntity;
+import com.nrk.cart.rest.domain.Product;
+import com.nrk.cart.rest.utils.EntityToDomainMapper;
 
 @Stateless
 @Path("products")
 @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 @Consumes({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+@Interceptors(AuditLogInterceptor.class)
 public class ProductResource {
 
   @EJB

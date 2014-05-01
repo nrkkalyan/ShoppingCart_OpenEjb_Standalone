@@ -1,11 +1,11 @@
-package com.nrk.cart.web.utils;
+package com.nrk.cart.rest.utils;
 
-import com.nrk.cart.ejb.persistence.entity.CartEntity;
-import com.nrk.cart.ejb.persistence.entity.CartItemEntity;
-import com.nrk.cart.ejb.persistence.entity.ProductEntity;
-import com.nrk.cart.web.domain.Cart;
-import com.nrk.cart.web.domain.CartItem;
-import com.nrk.cart.web.domain.Product;
+import com.nrk.cart.persistence.entity.CartEntity;
+import com.nrk.cart.persistence.entity.CartItemEntity;
+import com.nrk.cart.persistence.entity.ProductEntity;
+import com.nrk.cart.rest.domain.Cart;
+import com.nrk.cart.rest.domain.CartItem;
+import com.nrk.cart.rest.domain.Product;
 
 public class EntityToDomainMapper {
 

@@ -1,4 +1,4 @@
-package com.nrk.cart.ejb.persistence.entity;
+package com.nrk.cart.persistence.entity;
 
 import javax.persistence.Cacheable;
 import javax.persistence.Entity;
@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import com.nrk.cart.ejb.persistence.common.BaseEntity;
+import com.nrk.cart.persistence.common.BaseEntity;
 
 @Entity
 @Cacheable

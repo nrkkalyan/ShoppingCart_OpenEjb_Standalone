@@ -1,4 +1,4 @@
-package com.nrk.cart.web.domain;
+package com.nrk.cart.rest.domain;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlType;
