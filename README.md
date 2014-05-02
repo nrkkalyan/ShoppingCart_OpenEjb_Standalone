@@ -1,4 +1,4 @@
-ShoppingCart_OpenEjb_Standalone
+ShoppingCart OpenEjb Standalone
 ===============================
 I have created a sample openejb standalone application. The motive behind the example is to contribute towards openejb examples. For that I need your feedback if its a recommended way of using openejb.
 This application is a standalone Restful application developed using OpenEJB.
